@@ -5,7 +5,8 @@ x11vnc -storepasswd
 
 touch "/etc/systemd/system/x11vnc.service"
 FILE="/etc/systemd/system/x11vnc.service"
-printf "[Unit]\nDescription=x11vnc remote desktop server\nAfter=multi-user.target\n[Service]\nType=simple\nExecStart=/usr/bin/x11vnc -auth guess -forever -loop -noxdamage -repeat -rfbauth /home/%s/.vnc/passwd -rfbport 5900 -shared\nRestart=on-failure\n[Install]\nWantedBy=multi-user.target\n" "$USER" > $FILE
+SESSION=$SUDO_USER
+printf "[Unit]\nDescription=x11vnc remote desktop server\nAfter=multi-user.target\n[Service]\nType=simple\nExecStart=/usr/bin/x11vnc -auth guess -forever -loop -noxdamage -repeat -rfbauth /home/$SESSION/.vnc/passwd -rfbport 5900 -shared\nRestart=on-failure\n[Install]\nWantedBy=multi-user.target\n" > $FILE
 
 
 systemctl daemon-reload
