@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 apt-get update
 apt-get install x11vnc net-tools
 
