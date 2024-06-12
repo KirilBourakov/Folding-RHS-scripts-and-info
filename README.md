@@ -2,6 +2,8 @@ This repo contains scripts for folding@rhs and info about setting up FoldingRHS 
 
 Help can be reached at: kirbou06012@gmail.com
 
+The RHS team number is 1065641. The password has been left at school.
+
 # Scripts
 Currently, X11VNC auto set up works.
 
