@@ -3,6 +3,8 @@ This repo contains scripts for folding@rhs and info about setting up FoldingRHS 
 # Scripts
 Currently, X11VNC auto set up works.
 
+However, VNC seems to require screen output to work. It is therefore unsuited for this project.
+
 # Notes
 
 ## Folding itself
