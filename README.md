@@ -1,28 +1,28 @@
 This repo contains scripts for folding@rhs and info about setting up FoldingRHS machines.
 
-#Scripts
+# Scripts
 Currently, X11VNC auto set up works.
 
-#Notes
+# Notes
 
-##Folding itself
+## Folding itself
 
 Folding@RHS has two essential components, the folding web controller which can be found at their website, and folding@control.
 
-##Folding Control 
+## Folding Control 
 
-###Download
+### Download
 
 Do not use the controller on the folding website, it uses python2 and does not work with mint. I have left a zip file with the python3 version on the head computer (RHS4). It can also be found [here](https://github.com/cdberkstresser/fah-control). 
 
-###Autorun
+### Autorun
 
 You will need to set up the script to auto run. This can be done by going to the 'session and startup' in linux mint. When there, click 'Application autostart', and then 'Add'. 
 
 When there, give it the name and description you want. The trigger should be 'on login'. The command it runs should be "python3 [PLACEHOLDER]" where [PLACEHOLDER] is the location of the file "FAHcontrol". Note that this file does not have a file extension. The easiest way to set up this autorun is to click on the folder icon beside command, locate "FAHcontrol" within the directory that holds all the fahcontrol files, and select it. With that done, go to the start of the file, and type 'python3' followed by a space. 
 Restart and ensure that FAH control autostarts
 
-###Connecting to the main computer
+### Connecting to the main computer
 
 You need acess to both the master and slave computer for this step. 
 
