@@ -1,5 +1,7 @@
 This repo contains scripts for folding@rhs and info about setting up FoldingRHS machines.
 
+Help can be reached at: kirbou06012@gmail.com
+
 # Scripts
 Currently, X11VNC auto set up works.
 
