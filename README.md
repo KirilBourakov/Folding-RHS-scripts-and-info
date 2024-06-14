@@ -19,7 +19,7 @@ Folding@RHS has two essential components, the folding web controller which can b
 
 ### Download
 
-Do not use the controller on the folding website, it uses python2 and does not work with mint. I have left a zip file with the python3 version on the head computer (RHS4). It can also be found [here](https://github.com/cdberkstresser/fah-control). 
+Do not use the controller on the folding website, it uses python2 and does not work with mint. I have left a zip file with the python3 version on the head computer (RHS4). ~~It can also be found [here](https://github.com/cdberkstresser/fah-control).~~ The script in the link does not seem to work. Try the file left on the head computer first. Further, all folding machines have this folder so you can get it off there. You can find the file path for the folder by reversing the steps in **Autorun**.  
 
 ### Autorun
 
